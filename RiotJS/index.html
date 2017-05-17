@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="utf-8" />
+<body>
+	<!-- mount point for tag -->
+	<my-sum></my-sum>
+
+	<!-- riot tags to import -->
+	<script type="riot/tag" src="my-sum.tag"></script>
+
+	<!-- riot library and compiler for tags -->
+	<script type="text/javascript" src="riot%2Bcompiler.min.js"></script>
+
+	<!-- mount this app at 'my-sum'-->
+	<script type="text/javascript">
+	 riot.mount('my-sum')
+	 var title = "Hello riot" // Put here all JS you want
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- Two input boxes for VAR A and VAR B, and a "summary"
+	In Rivet you need a "on-input" for a real fast feedback. "On-change" doesn't work as expected like react.
+ -->
+<html>
+<script type="text/javascript" src="rivets.bundled.min.js"></script>
+<body>
+	<div id="changeme">
+		<h1>{myTitle}</h1>
+	  Var a:
+    <input rv-value="data.a" rv-on-input='data.refresh'/>
+    <br>
+    Var b:
+    <input rv-value="data.b" rv-on-input='data.refresh'/>
+	  <br>
+    Var c = ( {data.a} + {data.b} ) : {data.c}
+	</div>
+<!-- Add script here, at the end of body, after "changeme" component is created or app.js will not find it! -->
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
