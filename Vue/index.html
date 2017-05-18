@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<script src="vue.js"></script>
+<body>
+<div id="app">
+  <h1>{{ message }}</h1>
+  Var a:
+  <input v-model="a" v-on:input="add">
+  <br/>
+  Var b:
+  <input v-model="b" v-on:input="add">
+  <br/>
+  Var c = a + b : {{ c }}
+  <br/>
+  Total {{ a }} + {{ b }} (calculated): {{ parseInt(a) + parseInt(b) }}
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
