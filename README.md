@@ -31,3 +31,6 @@ The "Sum" hello worls demo I coded and published must complies (and contains) wi
 - All files should be bundled with demo
 - Demo works off-line with your web browser
 - No server required
+
+USE:
+Just download and open index.html with yput preferred browser!
