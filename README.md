@@ -17,7 +17,7 @@ These examples, however, make it clear what a framework can do and the way it wo
 - Are there any tools I need to install?
 - Can I use the "A-framework" toghether with "B-framework" and use "C-library"?
 
-These questions are really important because you don't want wast time to rewrite lot's of js/html codes written in the last 4-years. 
+These questions are really important because you don't want wast time to rewrite lot's of js/html codes written in the last 4-years.
 
 JS frameworks that implement the MVC (MVVC) full stack are well know to change your way in coding and how you organize the whole project. This could be difficult to manage if you don't want to start a new project but just upgrade the old one.
 
@@ -32,5 +32,8 @@ The "Sum" hello worls demo I coded and published must complies (and contains) wi
 - Demo works off-line with your web browser
 - No server required
 
-USE:
-Just download and open index.html with yput preferred browser!
+### USE:
+Just download and open index.html with your preferred browser!
+
+### TODO:
+- Add JQuery/JQuery-UI code if possible

@@ -12,11 +12,11 @@
     Total {mydata.a} + {mydata.b} (calculated) : <i> {parseInt(mydata.a)+parseInt(mydata.b)} </i>
   </div>
   <script>
-  // This is tag scripting, nothing is published on JS scope.
+  // This is tag scripting, nothing is published on JS scope. 
       this.mydata = {
-        a : 3,
-        b : 5,
-        c : 8
+        a : global_a,
+        b : global_b,
+        c : global_c
       }
 
       handleChange_a(e) {

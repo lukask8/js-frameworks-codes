@@ -1,4 +1,8 @@
-var global_msg_a = 1;
+// Global variables to test scopes
+var global_a = 30;
+var global_b = 20;
+var global_c = 50;
+var global_msg = "Hello from global scope!";
 
 (function() {
     // Using "body" as target for full SPA models
@@ -31,6 +35,10 @@ var global_msg_a = 1;
           console.log("riotjs");
       });
 
+      app.get('#/vue', function(context) {
+          $('#main').load('./Vue/index.html');
+          console.log("vue");
+      });
       app.run('#/');
     });
 })();

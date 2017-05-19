@@ -4,9 +4,9 @@
 
 // Variables settings and functions
 var mydata = {
-    a:3,
-    b:5,
-    c:8,
+    a:global_a,
+    b:global_b,
+    c:global_c,
     refresh : function(){ mydata.c =  parseInt(mydata.a) + parseInt(mydata.b);},
   };
 
