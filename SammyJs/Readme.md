@@ -9,8 +9,9 @@ Goal:
 - Demo works off-line with your web browser
 - No server or external library required!
 - No "scaffold" command. No npm/git/pip/bower required.
+- Jquery and jquery-UI support (A jquery-UI Dialog is called)
 
 
 ## Todo
 - Changes to variable local variables A,B,C should be binded with global variables A,B,C.
-- Add React demo
+- Add React demo.

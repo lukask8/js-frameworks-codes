@@ -11,8 +11,13 @@
     <br/>
     Total {mydata.a} + {mydata.b} (calculated) : <i> {parseInt(mydata.a)+parseInt(mydata.b)} </i>
   </div>
+
+  <div id="dialog" title="JQuery-ui dialog from Riot!">
+    <p>This is the default dialog created iniside RiotJS tag. The dialog window can moved, resized and closed with the 'x' icon.</p>
+  </div>
+
   <script>
-  // This is tag scripting, nothing is published on JS scope. 
+  // This is tag scripting, nothing is published on JS scope.
       this.mydata = {
         a : global_a,
         b : global_b,
@@ -32,6 +37,11 @@
       add(){
          this.mydata.c = parseInt(this.mydata.a) + parseInt(this.mydata.b);
       }
+
+      // this is a jquery-UI dialog
+      $( function() {
+        $( "#dialog" ).dialog();
+      })
 
   </script>
 </my-sum>

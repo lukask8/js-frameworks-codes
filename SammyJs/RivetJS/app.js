@@ -14,3 +14,8 @@ var myTitle = "Hello rivetjs";
 
 // Two way binding inside "changeme" passing "var data" to HTML context
 rivets.bind(document.getElementById('changeme') , {data: mydata, myTitle : myTitle} );
+
+// this is a jquery-UI dialog
+$( function() {
+  $( "#dialog" ).dialog();
+})

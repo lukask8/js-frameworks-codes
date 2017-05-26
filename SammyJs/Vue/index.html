@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <script src="./Vue/vue.js"></script>
+
 <body>
+
+
 <div id="app">
   <h1>{{ message }}</h1>
   Var a:
@@ -13,6 +16,11 @@
   Var c = a + b : {{ c }}
   <br/>
   Total {{ a }} + {{ b }} (calculated): {{ parseInt(a) + parseInt(b) }}
+
+  <div id="dialog" title="JQuery-ui dialog from VUE!">
+    <p>This is the default dialog created on VUE instance. The dialog window can moved, resized and closed with the 'x' icon.</p>
+  </div>
+
 </div>
 
 <script src="./Vue/app.js"></script>
